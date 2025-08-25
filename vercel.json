@@ -6,8 +6,8 @@
   },
   "rewrites": [
     {
-      "source": "/api/:match*",
-      "destination": "https://netease-cloud-music-api-lac-chi.vercel.app/:match*"
+      "source": "/api/(.*)",
+      "destination": "https://netease-cloud-music-api-lac-chi.vercel.app/$1"
     }
   ]
 }
