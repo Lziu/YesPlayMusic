@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "app.js": {
+      "runtime": "nodejs16.x"
+    }
+  },
   "rewrites": [
     {
       "source": "/api/:match*",
